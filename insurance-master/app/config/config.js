@@ -1,6 +1,6 @@
 const config = {
-  user: "test", // sql user
-  password: "test123", //sql user password
+  user: "sa", // sql user
+  password: "qwerty", //sql user password
   server: "127.0.0.1", // if it does not work try- localhost
   database: "db1",
   trustServerCertificate: true,
@@ -12,7 +12,7 @@ const config = {
 
     // instancename:  'SQLEXPRESS'  // SQL Server instance name
   },
-  port: 64485,
+  port: 1433,
 };
 
 const sql = require("mssql");
